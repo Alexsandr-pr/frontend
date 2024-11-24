@@ -71,20 +71,20 @@ const Footer = () => {
                             <BaseBlock title="Contact Us">
                                 <ul className="footer-item__list footer-list">
                                     <li className="footer-list__item">
-                                        <a href="mail-to:info@teamapp.com" className="footer-list__link footer-link">
+                                        <Link href="mail-to:info@teamapp.com" className="footer-list__link footer-link">
                                             info@teamapp.com
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="footer-list__item">
-                                        <a href="tel:1800200300" className="footer-list__link footer-link">
+                                        <Link href="tel:1800200300" className="footer-list__link footer-link">
                                             info@teamapp.com
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="footer-list__item">
-                                        <a href="/" className="footer-list__link footer-link">
+                                        <Link href="/" className="footer-list__link footer-link">
                                             1010 Sunset Blv.
                                             Palo Alto, California
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </BaseBlock>

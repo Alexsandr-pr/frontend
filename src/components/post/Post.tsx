@@ -1,7 +1,7 @@
 import { IPost } from "@/types"
 import "./post.scss"
 import Image from "next/image"
-import { formatIsoDate, getImageLink } from "@/lib/utils"
+import {    getImageLink } from "@/lib/utils"
 import Link from "next/link"
 import Author from "../author/Author"
 

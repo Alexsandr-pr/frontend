@@ -1,5 +1,4 @@
 import "./post-content.scss"
-import Link from 'next/link';
 
 const PostContentBlock = ({
     content

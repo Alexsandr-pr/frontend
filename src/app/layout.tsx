@@ -15,9 +15,10 @@ const lexendDeca = Lexend_Deca({
 })
 
 const plusJacartaSans = Plus_Jakarta_Sans({
+    subsets: ["latin", "latin-ext"], 
     weight: ["400", "500", "600"],
     variable: "--font-plus-jacarta-sans"
-})
+});
 
 export const metadata: Metadata = {
     title: "Create Next App",
