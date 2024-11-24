@@ -1,0 +1,71 @@
+.post-body {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 18px 24px 0px rgba(118, 118, 178, 0.28);
+}
+
+.post-body__image {
+    display: block;
+    width: 100%;
+    height: 220px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    @media(max-width:767.98px) {
+        height: 180px;
+    }
+    @media(max-width:650.98px) {
+        height: auto;
+    }
+}
+
+.post-body__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1; 
+    padding: 24px 16px 16px 16px;
+    gap: 16px;
+    @media(max-width:991.98px) {
+        padding: 16px;
+    }
+}
+
+.post-body__top {
+    flex-grow: 1; // Заставляет верхнюю часть (заголовок и текст) занимать оставшееся пространство
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    overflow: hidden; // Скрывает лишний контент, если он не помещается
+
+}
+
+.post-body__title {
+    color: #5468E7;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.25;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; // Ограничиваем количество строк
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @media(max-width:991.98px) {
+        font-size: 20px;
+    }
+}
+
+.post-body__text {
+    flex-grow: 1; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+

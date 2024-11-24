@@ -1,0 +1,96 @@
+.post-content h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #2c3e50;
+}
+.post-content h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #34495e;
+}
+
+/* Параграфы */
+.post-content p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Общие настройки для списков */
+.post-content ul, .post-content ol {
+    margin: 10px 0 20px 20px;
+    padding: 0;
+}
+
+/* Маркированные списки (точки) */
+.post-content ul {
+    list-style-type: disc;
+}
+.post-content ul li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Нумерованные списки (цифры) */
+.post-content ol {
+    list-style-type: decimal;
+}
+.post-content ol li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Вложенные списки */
+.post-content ul ul, .post-content ol ol {
+    margin-left: 20px;
+    list-style-type: circle; /* Вложенные ul списки отображаются кружками */
+}
+.post-content ol ol {
+    list-style-type: lower-alpha; /* Вложенные ol списки используют буквы */
+}
+
+/* Жирный текст */
+.post-content strong {
+    font-weight: bold;
+    color: #222;
+}
+
+/* Горизонтальная линия */
+.post-content hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Таблицы */
+.post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+}
+.post-content table th, .post-content table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+.post-content table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* Ссылки */
+.post-content a {
+    color: #3498db;
+    text-decoration: none;
+}
+.post-content a:hover {
+    text-decoration: underline;
+}

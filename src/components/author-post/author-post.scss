@@ -1,0 +1,42 @@
+
+
+.author-description__label {
+    color: #C897E4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+}
+
+.author-description__name {
+    color:  #232340;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.author-description__description {
+    color: rgba(35, 35, 64, 0.60);
+    font-family: "Lexend Deca";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 164.286% */
+    letter-spacing: 0.14px;
+}
+
+.author-post__description {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 336px;
+}
+
+.author-post {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
